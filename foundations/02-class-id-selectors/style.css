@@ -1,0 +1,32 @@
+/* Odd number elements 1, 3, & 5, light red/pink background with font `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback.
+You also set the first element as class "one" with a . in front of it.  */
+.one {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgba(226, 122, 122);
+}
+
+/* add the 2nd element id here. It was originally div but you named it an id "two". So you use #two to call the id in style.css */
+#two {
+    color: rgba(18, 20, 163);
+    font-size: 36px;
+}
+
+/* add the 3rd element class here. It was originally <p> but you named it id "three" in the html, you call a class with .three in style.css */
+.three {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgba(226, 122, 122);
+    font-size: 24px;
+}
+
+/* add the 4th element id here. It was originally <p> but you named it id "four" in the html, you call a id with hashtag # in style.css */
+#four {
+    background-color: rgb(11, 233, 74);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* add the 5th element class here. It was originally <p> but you named it id "five" in the html, you call a class with the dot . in style.css */
+.five {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgba(226, 122, 122);
+}

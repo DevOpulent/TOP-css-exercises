@@ -1,1 +1,12 @@
 /* Add CSS Styling */
+/* Chaning selectors for avatar and proportioned classes. To chain you need to follow this .selector1.selector2 with no spaces in between.
+This chains the two classes together */
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
