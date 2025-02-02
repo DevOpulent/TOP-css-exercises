@@ -1,27 +1,61 @@
+/* General styles for the entire page */
 body {
-  background: #eee;
-  font-family: sans-serif;
+  background: #eee; /* Light gray background */
+  font-family: sans-serif; /* Sets font to sans-serif for a clean look */
 }
 
+/* Card container */
 .card {
-  width: 400px;
-  background: #fff;
-  margin: 16px auto;
+  width: 400px; /* Fixed width for the card */
+  background: #fff; /* White background */
+  margin: 16px auto; /* Centers the card horizontally with top/bottom spacing */
+  padding: 8px; /* Adds spacing inside the card */
 }
 
+/* Title section */
 .title {
-  background: #e3f4ff;
+  background: #e3f4ff; /* Light blue background for contrast */
+  margin-bottom: 8px; /* Adds spacing below the title */
+  font-size: 16px; /* Sets font size */
+  padding: 8px; /* Uniform padding (8px on all sides) */
+  /* Even padding ensures consistency across all sides */
 }
 
+/* Content section */
 .content {
-  background: #e3f4ff;
+  background: #e3f4ff; /* Light blue background */
+  padding: 16px 8px; /* Different padding values */
+  /* 16px top/bottom: Extra space for readability */
+  /* 8px left/right: Keeps width aligned with other elements */
+  margin-bottom: 8px; /* Adds spacing below this section */
 }
 
+/* Button container */
 .button-container {
-  background: #e3f4ff;
+  background: #e3f4ff; /* Light blue background */
+  padding: 8px; /* Uniform padding to match the title */
+  text-align: center; /* Centers the button inside the container */
 }
 
+/* Button styles */
 button {
-  background: white;
-  border: 1px solid #eee;
+  background: white; /* White button background */
+  display: block; /* Makes the button a block element (takes full width of its parent by default) */
+  border: 1px solid #eee; /* Light border for contrast */
+  padding: 8px 24px; /* 8px top/bottom, 24px left/right for a larger clickable area */
+  margin: 0 auto; /* Centers the button horizontally */
 }
+
+/* TIPS!!!
+-Use block elements for structural elements (e.g., <div>, <section>, <p>, <h1>).
+-Use inline elements for styling parts of a sentence or text (e.g., <span>, <a>, <strong>).
+-Use inline-block if you need elements to be inline but also control width/height. */
+
+/* To size all elements on all of your pages to always work by having the padding and border no longer increasing its 
+width. 
+This ensures that all elements are always sized in this more intuitive way you can set it up this way:
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+} */
